@@ -132,10 +132,6 @@
             background-color: #e6f0ff;
             color: #003087;
         }
-        .pass {
-            color: green;
-            font-weight: bold;
-        }
         .center {
             text-align: center;
         }
@@ -245,7 +241,6 @@
             <th data-label="External">External</th>
             <th data-label="Total">Total</th>
             <th data-label="Max">Max</th>
-            <th data-label="Status">Status</th>
         </tr>
         <tr>
             <td data-label="Subject Code">ETMA-101</td>
@@ -254,7 +249,6 @@
             <td data-label="External">54</td>
             <td data-label="Total">82</td>
             <td data-label="Max">100</td>
-            <td data-label="Status" class="pass">Pass</td>
         </tr>
         <tr>
             <td data-label="Subject Code">ETPH-103</td>
@@ -263,7 +257,6 @@
             <td data-label="External">52</td>
             <td data-label="Total">78</td>
             <td data-label="Max">100</td>
-            <td data-label="Status" class="pass">Pass</td>
         </tr>
         <tr>
             <td data-label="Subject Code">ETME-105</td>
@@ -272,7 +265,6 @@
             <td data-label="External">55</td>
             <td data-label="Total">85</td>
             <td data-label="Max">100</td>
-            <td data-label="Status" class="pass">Pass</td>
         </tr>
         <tr>
             <td data-label="Subject Code">ETEE-107</td>
@@ -281,7 +273,6 @@
             <td data-label="External">56</td>
             <td data-label="Total">88</td>
             <td data-label="Max">100</td>
-            <td data-label="Status" class="pass">Pass</td>
         </tr>
         <tr>
             <td data-label="Subject Code">ETCH-113</td>
@@ -290,7 +281,6 @@
             <td data-label="External">52</td>
             <td data-label="Total">79</td>
             <td data-label="Max">100</td>
-            <td data-label="Status" class="pass">Pass</td>
         </tr>
         <tr>
             <td data-label="Subject Code">ETCS-111</td>
@@ -299,18 +289,16 @@
             <td data-label="External">58</td>
             <td data-label="Total">91</td>
             <td data-label="Max">100</td>
-            <td data-label="Status" class="pass">Pass</td>
         </tr>
         <tr>
-            <td colspan="4" class="center" data-label="Total"><strong>Total</strong></td>
-            <td data-label="Total"><strong>503</strong></td>
-            <td data-label="Max"><strong>600</strong></td>
-            <td data-label="Status"><strong class="pass">PASS (83.83%)</strong></td>
+            <td colspan="5" class="center" data-label="Total"><strong>Total</strong></td>
+            <td data-label="Total"><strong>503 / 600</strong></td>
+            <td data-label="CGPA"><strong>CGPA: 8.38</strong></td>
         </tr>
     </table>
 
-    <p class="center" style="font-size:1.3em; color:green; margin-top:2rem; font-weight:bold;">
-      ELIGIBLE FOR NEXT SEMESTER
+    <p class="center" style="font-size:1.1em; margin-top:1.5rem;">
+        You are eligible for promotion to the next semester.
     </p>
 </div>
 
